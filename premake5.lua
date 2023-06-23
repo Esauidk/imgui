@@ -21,5 +21,5 @@ project "ImGui"
     systemversion "latest"
     cppdialect "C++20"
 		staticruntime "On"
-  filter {"system:windows", "configuration:Release" }
+  filter {"system:windows", "configurations:Release" }
     buildoptions "/MT"
